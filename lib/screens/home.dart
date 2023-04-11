@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment:MainAxisAlignment.center,
           children: <Widget>[
             ElevatedButton(
-              child:Text("Logout"),
+              child: Text("Logout"),
               onPressed:()async{
                 Navigator.push(
                 context,

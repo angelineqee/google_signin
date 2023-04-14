@@ -21,3 +21,11 @@ With this error, you'll have to first check whether is your app registered with 
 
 If error persists, check if you have the correct SHA-1 and SHA-256 key for your android app. To do this, run `cd android` and `gradlew signingReport`. This should print out the app's SHA-1 and SHA-256 key for you. Register the SHA-1 and SHA-256 key in your Firbase project at the Firebase console.
 
+## Git Cheat Sheet
+git init - initialize an existing directory as a Git repository
+git status - show modified files in working directory, staged for your next commit
+git add [file] - add a file as it looks now to your next commit (stage)
+git commit -m “[descriptive message]” - commit your staged content as a new commit snapshot
+git remote add [alias] [url] - add a git URL as an alias
+git push [alias] [branch] - Transmit local branch commits to the remote repository branch
+

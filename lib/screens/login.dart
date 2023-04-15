@@ -75,7 +75,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   }
                   return Colors.white;
                 }),
-              ),
+              ), // ButtonStyle
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
@@ -93,14 +93,14 @@ class _LoginScreenState extends State<LoginScreen> {
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
                           color: Colors.black87),
-                    ),
+                    ), // Text
                   ],
-                ),
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
+                ), // Row
+              ), // Padding
+            ), // ElevatedButton
+          ), // Container
+        ), // Center
+      ), // Container
+    ); // Scaffold
   }
 }

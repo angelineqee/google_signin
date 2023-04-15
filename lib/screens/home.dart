@@ -31,10 +31,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 MaterialPageRoute(builder: (context) => LoginScreen())
               );
               },
-            ),
-          ]
-        ),
-      ),
-    );
+            ), // ElevatedButton
+          ] // <Widget>[]
+        ), // Column
+      ), // Center
+    ); // Scaffold
   }
 }
